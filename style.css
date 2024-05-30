@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  background-color: #eee;
+  padding: 20px;
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+
+a:hover {
+  background-color: #ccc;
+}
+
+.main-container {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  background-color: #eee;
+  height: 600px;
+}
+.box {
+  width: 150px;
+  height: 150px;
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: yellow;
+}
+.box3 {
+  background-color: blue;
+}
